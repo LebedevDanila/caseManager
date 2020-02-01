@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CaseManager</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+    <h1 class="title">CaseManager</h1>
+    <form class="cm-form">
+        <input type="text" class="cm-form__text" placeholder="Введите название задачи">
+        <input type="submit" class="cm-form__submit" value="Добавить">
+    </form>
+    <div class="cm-cards"></div>
+</div>
+
+<script src="CaseManager.js"></script>
+<script>
+const caseManager = new CaseManager();
+</script>
+</body>
+</html>

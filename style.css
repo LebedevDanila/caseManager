@@ -1,0 +1,105 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #3F3F3F;
+    font-family: 'Open Sans', sans-serif;
+}
+#app {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    font-size: 37px;
+    color: #0086E1;
+}
+.cm-form {
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cm-form__text {
+    height: 35px;
+    width: 300px;
+    padding-left: 17px;
+    margin-right: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #717171;
+}
+.cm-form__submit {
+    border-radius: 3px;
+    font-size: 19px;
+    background: #0086E1;
+    border: none;
+    width: 125px;
+    color: #fff;
+    cursor: pointer;
+}
+.cm-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cm-card {
+    width: 30%;
+    min-height: 300px;
+    background: #0086E1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.cm-card .close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+.cm-card h3 {
+    text-align: center;
+    font-size: 23px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.cm-card form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cm-card form input[type="text"] {
+    padding-left: 17px;
+    height: 30px;
+    width: 67%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #717171;
+}
+.cm-card form input[type="submit"] {
+    height: 30px;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    color: #0086E1;
+    cursor: pointer;
+    font-size: 15px;
+}
+.cm-card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+.cm-card ul li {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
